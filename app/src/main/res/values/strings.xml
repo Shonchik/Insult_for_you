@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FuckYou</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="alert_title">Alert!!!</string>
+    <string name="alert_message">Are you sure?</string>
+    <string name="alert_yes">YES</string>
+    <string name="alert_no">NO</string>
+    <string name="search_hint">Name</string>
+    <string name="button_dislike">Дизлике</string>
+    <string name="button_like">Лике</string>
+    <string name="text_before_insult">Hello darkness!</string>
+    <string name="delete">Delete</string>
+</resources>
