@@ -75,7 +75,7 @@ class ListFragment : Fragment() {
             setTitle(getString(R.string.alert_title))
             setMessage(getString(R.string.alert_message))
             setPositiveButton(getString(R.string.alert_yes)) { dialogInterface, i ->
-                viewModel.del(item)
+                viewModel.del(item, binding.editText.text.toString())
             }
             setNegativeButton(getString(R.string.alert_no)) { dialogInterface, i ->
                 Log.d("dbbd", "close")

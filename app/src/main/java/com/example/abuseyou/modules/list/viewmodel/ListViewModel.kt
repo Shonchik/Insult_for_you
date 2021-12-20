@@ -37,10 +37,10 @@ class ListViewModel @Inject constructor(
         }
     }
 
-    fun del(id: Int) {
+    fun del(id: Int, name: String) {
         viewModelScope.launch {
             dao.removeInsult(id)
-            getInsults()
+            searchInsults(name)
         }
     }
 
